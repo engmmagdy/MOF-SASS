@@ -1,0 +1,226 @@
+footer {
+    // border-top: 1px solid #d2d3d5;
+
+    &::before {
+        background: url(/_layouts/15/images/mof/footerImage2.png) no-repeat top left transparent;
+        background-color: white;
+        display: block;
+        content: "";
+        position: relative;
+        width: 100%;
+        height: 138px;
+    }
+
+    .topFooter {
+        .items {
+            a {
+                &:before {
+                    content: "\f104";
+                    display: inline-block;
+                    font: normal normal normal 14px/1 FontAwesome;
+                    font-size: inherit;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    margin-#{$left}: 5px;
+                    font-size: 13px;
+                    float: $right;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        background-color: #eeeeee;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+        padding-top: 25px;
+
+        .social-network {
+            list-style: none;
+            display: inline-block;
+            margin-#{$left}: 0;
+            padding: 0;
+            margin-top: 15px;
+
+            li {
+                float: $right;
+                width: auto;
+                margin-#{$left}: 5px;
+
+                a {
+                    display: inline-block;
+                    position: relative;
+                    margin: 0 auto 0 auto;
+                    -moz-border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                    text-align: center;
+                    border: 0;
+                    width: 40px;
+                    height: 40px; //background: #dfdfdf; // border: #ddd 1px solid;
+                    transition: background-color 0.2s ease-in-out;
+                    -webkit-transition: background-color 0.2s ease-in-out;
+                    -moz-transition: background-color 0.2s ease-in-out;
+                    -ms-transition: background-color 0.2s ease-in-out;
+                    -o-transition: background-color 0.2s ease-in-out;
+
+                    i {
+                        margin: 0;
+                        line-height: 25px;
+                        font-size: 22px;
+                        text-align: center;
+                        color: #434343;
+                    }
+
+                    svg {
+                        fill: #434343;
+                    }
+
+                    &:hover {
+                        background: #dcdcdc;
+
+                        i {
+                            color: #434343;
+                        }
+
+                        svg {
+                            fill: #434343;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyRight {
+        background: #DFDBDB;
+        display: block;
+        color: #3a3a3a;
+        text-align: center;
+        padding: 15px;
+        clear: both;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .footerMenu {
+        color: #555;
+        direction: $rtl;
+        background: transparent;
+        border-#{$left}: #ccc 1px dotted;
+        padding-left: 0;
+        padding-right: 0;
+
+        ul {
+            li {
+                display: inline-block;
+                border-bottom: #ccc 1px;
+                width: 100%;
+
+                a {
+                    color: #555;
+                    padding: 7px;
+                    margin-bottom: 5px;
+                    display: inline-block;
+                    width: 100%;
+                    border-bottom: #eee 1px solid;
+                    font-size: 14px;
+
+                    &:before {
+                        content: "\f104";
+                        display: inline-block;
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size: inherit;
+                        text-rendering: auto;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        margin-#{$left}: 8px;
+                        font-size: 13px;
+                        float: $right;
+                        margin-top: 5px;
+                    }
+
+                    &:hover {
+                        color: #405d95;
+                    }
+                }
+            }
+
+            &.social-network {
+                li {
+                    display: inline;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+
+    .topFooter .social-network a.icoRss:hover i,
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoTwitter:hover i,
+    .topFooter .social-network a.icoGoogle:hover i,
+    .social-network a.icoVimeo:hover i,
+    .social-network a.icoLinkedin:hover i,
+    .social-network a.icoinstagram:hover i,
+    .social-network a.icoyoutube:hover i {
+        color: #000;
+    }
+
+    .topFooter .topFooter a.socialIcon:hover,
+    .socialHoverClass {
+        color: #44BCDD;
+    }
+}
+
+.general_ListBox {
+    border-#{$left}: #ccc 1px dotted;
+
+    .sec_header {
+        padding-#{$right}: 0;
+        margin-top: 0;
+    }
+
+    ul {
+        padding: 0;
+        margin-bottom: 20px;
+
+        li {
+            display: inline-block; //border-bottom: #eee 1px solid;
+            width: 100%; //color: #555;
+
+            //padding: 7px;
+            a {
+                color: #555;
+                padding: 7px;
+                margin-bottom: 5px;
+                display: inline-block;
+                width: 100%;
+                border-bottom: #eee 1px solid;
+                font-size: 14px;
+
+                .icons {
+                    float: $right;
+                    margin-#{$left}: 10px;
+                    margin-top: 3px;
+                    font-size: 20px;
+                    color: #000;
+                }
+
+                &:hover {
+                    color: #405d95;
+
+                    .icons {
+                        color: #405d95;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.topFooter .sec_header {
+    margin-top: 0;
+    color: #405d95;
+    font-size: 1.2rem;
+}

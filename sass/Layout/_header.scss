@@ -1,0 +1,176 @@
+header {
+    padding: 20px 0 0;
+    background-color: #fff; // background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    // background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+    // background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    // background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+    // background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    // background-repeat: repeat-x;
+    // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    display: inline-block;
+    width: 100%;
+
+    .searchBox {
+        direction: $rtl;
+        float: $left;
+        margin-#{$right}: 0;
+
+        input[type=text] {
+            display: none;
+            text-align: $right;
+            margin-top: 0;
+            font-size: 13px;
+            padding: 8px;
+            padding-#{$left}: 30px;
+            border-radius: 5px;
+            border: 2px solid #d2d3d5;
+            float: $right;
+            width: 100%;
+            transition: all .2s ease-in-out;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -ms-transition: all .2s ease-in-out;
+
+            &:focus {
+                border: 2px solid #405d95;
+
+                &+.searchButton {
+                    color: #405d95;
+                }
+            }
+        }
+
+        .searchButton {
+            width: auto;
+            min-width: auto;
+            padding: 0;
+            border: 0;
+            margin-top: 0;
+            background: transparent;
+            min-height: auto;
+
+            &:hover {
+                i {
+                    color: #096fb9
+                }
+            }
+
+            i {
+                font-size: 25px;
+                color: #000;
+            }
+        }
+    }
+
+    .top_Menu {
+        margin-top: 15px;
+        float: $left;
+        width: auto;
+        margin-#{$left}: 6rem;
+        padding: 0;
+
+        .topMenu {
+            display: inline-block;
+            border-#{$left}: 1px solid #ddd;
+            padding-#{$left}: 15px;
+            margin-#{$left}: 10px;
+
+            a {
+                color: #000;
+                margin-#{$right}: 20px;
+                font-size: 13px;
+                float: $left;
+                font-family: "JFlat";
+
+                &:hover {
+                    color: #405d95;
+
+                    svg {
+                        fill: #405d95
+                    }
+                }
+
+                i,
+                svg {
+                    text-align: $right;
+                    font-size: 20px;
+                    float: $right;
+                    margin-#{$left}: 5px;
+                }
+
+                &#siteLang {
+                    font-family: Arial;
+                }
+            }
+        }
+    }
+
+    .site-logo {
+        padding-left: 0;
+        padding-right: 0;
+        float: $right;
+        position: relative;
+        top: -10px;
+        text-align: center;
+
+        img {
+            width: 85%;
+        }
+    }
+
+    .newKuwait {
+        text-align: $left;
+        position: absolute;
+        margin-top: 0;
+        width: auto;
+        z-index: 99;
+        #{$left}: 0;
+        width: 80px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .main-header.sticky {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 .125rem .625rem .0625rem rgba(51, 51, 51, 0.2);
+        padding-top: 0;
+        top: 0;
+
+        .newKuwait,
+        .top_Menu {
+            display: none;
+        }
+
+        .site-logo {
+            position: absolute;
+            width: 13%;
+            #{$right}: 0;
+
+            img {
+                width: 100%;
+                padding-top: 4px;
+                transition: padding .4s ease-in-out;
+                -webkit-transition: padding .4s ease-in-out;
+                -moz-transition: padding .4s ease-in-out;
+                -ms-transition: padding .4s ease-in-out;
+            }
+        }
+
+        .MainMenu {
+            margin-top: 0;
+            padding-#{$right}: 29rem;
+            transition: padding .2s ease;
+            -webkit-transition: padding .2s ease;
+            -moz-transition: padding .2s ease;
+            -ms-transition: padding .2s ease;
+        }
+    }
+}

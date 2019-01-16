@@ -1,0 +1,278 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: Kufi;
+    src: url('/_layouts/15/MOF/fonts/DroidKufi-Regular.ttf '), url('/_layouts/15/MOF/fonts/DroidKufi-Regular.eot');
+}
+
+@font-face {
+    font-family: Kufibold;
+    src: url('/_layouts/15/MOF/fonts/DroidKufi-Bold.ttf'), url('/_layouts/15/MOF/fonts/DroidKufi-bold.eot');
+}
+
+body {
+    background: #fff;
+    font-family: Kufi !important;
+    font-size: 14px;
+    text-align: right !important;
+    color: #fff !important;
+    overflow: scroll !important;
+}
+button {font-family:Kufi !important; padding:10px !important; border-radius:0 !important;}
+.red{color:#e24755 !important;}
+.ms-srch-sbLarge-fullWidth{ width:inherit !important;}
+.ms-srch-sbLarge > input { width:80% !important; font-family:Kufi !important; font-size:14px !important;}
+.ms-srch-sbLarge { background:#fff !important; border:none !important; font-size:13px !important; font-family:Kufi !importantl; width:100% !important; }
+.col-md-offset-9 { padding-right:30px !important; margin-top:-50px !important;}
+#SearchBox input {width: 80% !important;}
+
+.propertysheet{ width:100% !important;} 
+.propertysheet input{ width:100% !important;} 
+.propertysheet tbody tr td table { display:inherit !important;}
+
+.ms-descriptiontext tbody tr td table { display:inherit !important;}
+    .ms-SpaceBetButtons input[type=submit], .ms-descriptiontext input[type=button] {
+        text-align: center !important;
+        background: #0a89c1 !important;
+        color: #fff !important;
+        font-family: Kufi !important;
+    }
+
+
+
+
+.ms-srch-sbLarge > input {
+    text-align: right !important;
+}
+
+#innerPageBox {
+    background: url(/_layouts/15/images/mof/innerbg.jpg) top left no-repeat !important;
+    background-size: 800px !important;
+    width: 100% !important;
+     font-family: Kufi !important;
+ 
+    display: inline-block !important;
+}
+.innerBanr {
+    background:#f5f5f5 !important;
+    height: 50px !important;
+    border-top:#0a89c1 2px solid !important;
+ 
+}
+
+.innerBanr h3 { padding: 10px !important; margin-top:27px !important;font-family: kufibold !important; font-size: 20px !important; color:#808080 !important;}
+.innerBanr span { text-align: center; font-family:Kufibold!important; color:#555 !important; font-size: 20px !important; padding-top: 35px !important;}
+.SideMenuBox {  margin-top:25px !important; padding:20px 0 !important; border:#f5f5f5 1px solid !important; }
+.SideMenuBox ul{}
+.SideMenuBox ul li{ list-style-type:none !important; display:block !important;}
+.SideMenuBox ul li a{ font-family:Kufibold !important; color:#444 !important; font-size:14px !important; padding:15px 0 !important; display:block !important;}
+.inr_contents {padding-left: 0 !important; display: inline-block;margin-bottom: 20px;padding-bottom: 20px; width:100% !important; color:#555 !important; direction:rtl !important;margin-top:25px !important;}
+.SideMenuBox ul li a:hover {color: #0a89c1 !important;}
+
+.inr_contents h3 {padding: 15px 0px 15px 0; margin: 10px !important; color:#444 !important; font-size:18px;font-family:kufiBold !important;  }
+ 
+
+.hp_NewsBox {
+        margin-bottom: 15px !important;
+    }
+.hp_NewsBox a img { width:100% !important;}
+    .hp_newsItem h4 { font-size:15px !important; font-family:Kufi !important;}
+.hp_newsItem { height:350px !important;}
+
+.staticContent {
+    color: #555 !important;
+    direction: rtl !important;
+}
+.staticContent p{ text-align: justify !important; line-height: 2.2 !important; padding: 15px;}
+.staticContent  img{ width: 100% !important; height: auto !important; margin-top: 70px !important;}
+.staticContent p b{ display:block !important; font-size:16px; color: #0a89c1 !important; padding-bottom: 15px;}
+
+
+.innerListBox {}
+.innerListBox ul{ margin-right: 20px; padding:0 !important; direction: rtl !important; list-style-type: none !important;}
+.innerListBox ul li{ margin-bottom: 15px !important; list-style-type: none !important;}
+.innerListBox ul li a{ list-style: none !important; display: block; background: #eee !important; padding: 15px !important; height: 150px; border-right: #e24755 4px solid !important; color: #555 !important; text-align: justify;}
+.innerListBox ul li a b{ color:#0a89c1 !important; display: block !important; font-family: arial; margin-bottom: 7px;}
+.innerListBox ul li a:hover{ background:#d9eff4 !important;}
+
+
+.innerListBox {}
+.innerListBox ul{ margin-right: 20px; padding:0 !important; direction: rtl !important; list-style-type: none !important; border-bottom: #eee 1px solid !important;display: table-footer-group;}
+.innerListBox ul li{ margin-bottom: 15px !important; list-style-type: none !important;}
+.innerListBox ul li a{ list-style: none !important; display: block; background: #f5f5f5 !important; padding: 15px !important; height: 145px; border-right: #e24755 4px solid !important; color: #555 !important; text-align: justify;}
+.innerListBox ul li a b{ color:#0a89c1 !important; display: block !important; font-family: arial; margin-bottom: 7px;}
+.innerListBox ul li a:hover{ background:#d9eff4 !important;}
+
+
+.innerListBox_green {}
+.innerListBox_green ul{ margin-right: 20px; padding:0 !important; direction: rtl !important; list-style-type: none !important; border-bottom: #eee 1px solid !important;display: table-footer-group;}
+.innerListBox_green ul li{ margin-bottom: 15px !important; list-style-type: none !important;}
+.innerListBox_green ul li a{ list-style: none !important; display: block;  padding: 15px !important; height: 120px; border-right: #98CF58 4px solid !important; color: #555 !important; text-align: justify; border-bottom:#eee 1px solid;border-left:#eee 1px solid;border-top:#eee 1px solid; }
+.innerListBox_green ul li a b{ color:#0a89c1 !important; display: block !important; font-family: arial; margin-bottom: 7px;}
+.innerListBox_green ul li a:hover{ background:#d9eff4 !important;}
+
+.innerListBox_orange {}
+.innerListBox_orange ul{ margin-right: 20px; padding:0 !important; direction: rtl !important; list-style-type: none !important; border-bottom: #eee 1px solid !important;display: table-footer-group;}
+.innerListBox_orange ul li{ margin-bottom: 15px !important; list-style-type: none !important;}
+.innerListBox_orange ul li a{ list-style: none !important; display: block; padding: 15px !important; height: 120px; border-right: #F8914B 4px solid !important; color: #555 !important; text-align: justify;border-bottom:#eee 1px solid;border-left:#eee 1px solid;border-top:#eee 1px solid;}
+.innerListBox_orange ul li a b{ color:#0a89c1 !important; display: block !important; font-family: arial; margin-bottom: 7px;}
+.innerListBox_orange ul li a:hover{ background:#d9eff4 !important;}
+
+.bannersbox { padding-top: 68px !important;}
+.bannersbox a{ margin-bottom: 15px; display: block !important;}
+.bannersbox img{ width: 100% !important;}
+.bannersbox a img:hover{ filter:grayscale(100%)}
+
+
+
+
+/*auctions innner*/
+.auctionBody {}
+.auctionBody b{ color:#0F83B4 !important ;font-size:15px !important;}
+.auction_InnerImg img{ width:100% !important; border:#eee 1px solid !important; }
+.table-responsive{ margin-top:20px !important; background:#f5f5f5 !important; padding:15px;}
+.table-responsive table { margin-top:20px !important; }
+.auctionTblTitle { background: #d9eff4 !important}
+.auctionTblData {background: #fff !important}
+
+/*News innner*/
+.innerNewsImg img{ width:100% !important;margin-bottom:15px !important;}
+.innerNewsBdy{ text-align:justify !important;}
+
+.innerNewsBdy p, .innerNewsBdy div{ line-height:2 !important; font-size:13px !important; }
+.innerNewsBdy b{ color:#0F83B4 !important; padding:10px 0 !important; display:block !important; font-size:15px!important;}
+
+ /*Edit forms style*/
+.inr_contents input, .inr_contents select, .inr_contents textarea{ width:100%!important; text-align:right !important; padding:10px !important; font-family:Kufi !important;border-radius:3px !important;}
+.ms-formfieldcontainer,.ms-formfieldlabel { text-align:right !important; color:#0F83B4 !important; padding:7px !important; border:none !important; padding-right:0 !important; margin-right:0 !important; margin-bottom:7px !important;} /*inputs titles in edit View*/
+.ms-dtinput, .ms-dttimeinput{width:30% !important;} /*date picker*/
+.ms-formfieldvaluecontainer{ border:none !important;}
+
+/*decisions innerpage */
+
+
+
+/*Achive Pages */
+#commentBox .edit-mode-panel {
+    width: 98% !important;
+    margin-right: 1% !important;
+}
+
+#commentBox input[type=button] {
+    width: 8% !important;
+    text-align: center !important;
+    background: #0a89c1 !important;
+    color: #fff !important;
+    float: right !important;
+    margin: 15px 0 !important;
+}
+
+
+#commentBox .socialcomment-image, #commentBox .ms-socialCommentItem .socialcomment-IMPawn {
+    display: none !important;
+}
+#commentBox .ms-socialCommentItem .socialcomment-contents { width:100% !important; margin:5px !important;}
+#commentBox .ms-socialCommentItem {
+    background: #f5f5f5;
+    border: #f5f5f5 7px solid;
+    margin-bottom:5px !important;
+    font-size:13px !important;
+}
+
+#commentBox .ms-socialCommentItem  td{ padding-bottom:0px !important;}
+
+.linkAria {
+    
+    padding:5px; margin-top:10px !important;
+}
+.linkAria a {
+        color: #0F83B4 !important; text-decoration:underline !important;
+    }
+
+.input-group-addon{ border:none !important; background:none !important;}
+    
+   /*Paging Style*/
+
+.ms-promlink-headerNav {
+    position: absolute !important;
+    right: 30px !important;
+    bottom: 0 !important;
+}
+.ms-promlink-headerNav  a{ border:0 !important;
+}
+
+
+/*Listing Pages*/
+#listingItemStyle .hp_NewsBox {
+    margin-bottom: 15px !important;
+}
+
+#listingItemStyle. hp_NewsBox a img {
+        width: 100% !important;
+    }
+
+#listingItemStyle .hp_newsItem h4 {
+    font-size: 15px !important;
+    font-family: Kufi !important;
+    text-align: center !important;
+}
+
+.hp_newsItem {
+    height: 340px !important;
+}
+#listingItemStyle .itemTypeCircle {
+    width: 70px !important;
+    height: 70px !important;
+    text-align: center !important;
+    padding: 0 !important;
+    line-height: 70px !important;
+    font-family: Kufibold !important;
+    border-radius: 50% !important;
+    margin-top: -40px !important;
+    z-index: 2000 !important;
+    position: relative !important;
+    margin:0 auto !important;
+    margin-top:-40px !important;
+    right:unset !important;
+}
+#listingItemStyle center{ font-family:Aria !important; font-weight:bold !important; padding-top:10px !important;}
+#listingItemStyle .bg-orange { background-color:darkorange !important;}
+#listingItemStyle .bg-blue { background-color:dodgerblue !important;}
+#listingItemStyle .bg-red{ background-color:#e24755 !important;}
+#listingItemStyle .bg-green{ background-color:#52ab52 !important;}
+#listingItemStyle .bg-grey{ background-color:#808080 !important;}
+
+
+
+	.listItemBox p{ text-align: justify !important; padding: 10px!important;  direction: rtl!important;  color: #666 !important; font-size:12px;}
+	.listDataBox { color:#FFFFFF !important;}
+	.listDataBox img{ width: 100%;}
+	.listDataBox h4{ padding:10px; font-family:Kufibold !important; color:#fff !important; }
+	.listDataBox span{padding:0 10px 10px 10px; font-family: arial; float: right;}
+    .listDataBox span .fa{float: right; margin-left:7px !important;}
+
+	.listNumber {float: left !important;}
+    .listItemBox a{cursor:pointer !important; }
+    .listItemBox a div:hover { background: #eee !important; color: #666 !important;}
+    .listItemBox a h4:hover { color: #666 !important;}
+
+	.decesionBg{ background:#1191ca !important; color:#fff !important;}
+  
+	.decreeBg{ background:#f95050 !important;}
+	.lawBg{ background:#22be7a !important;}
+	.circularBg{ background:#7b7b7b !important;}
+	
+
+
+/*Executives Pages*/
+
+.subTitlesstyle { margin-left:15px !important;}
+.subTitlesstyle i { color:#e24755 !important;}
+.SimpleListBox {background: #f5f5f5 !important;display: block;padding: 15px !important;border-right: #e84c4c 3px solid;cursor:pointer !important;}
+.studyListBox a h4 {
+    line-height: 23px !important;
+}
+.SimpleListBox a  {line-height:2 !important;}
+.SimpleListBox:hover {background: #d9eff4 !important;}
+.studyListBox{ margin-bottom:7px !important;}

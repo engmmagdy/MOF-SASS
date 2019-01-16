@@ -1,0 +1,38 @@
+.l-full-details {
+    width: 100%;
+    position: relative;
+    padding: 0;
+
+    .page--img {
+        margin-#{$left}: 1rem;
+
+        img {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ddd !important;
+        }
+    }
+
+    .page--title {
+        font-size: 1.4rem;
+        line-height: 0.5;
+        font-weight: 600;
+        margin-top: 0;
+        color: #101010;
+        margin-bottom: 25px;
+    }
+
+    .page--description {
+        font-size: 1rem;
+        color: #101010;
+        line-height: 2;
+        text-align: justify;
+        font-family: "JFlat";
+    }
+}
+
+.inner-page,.page--content{
+    width: 100%;
+    position: relative;
+    padding: 0;
+}

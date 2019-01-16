@@ -1,0 +1,703 @@
+/*Mof WebSite @ 2017*/
+@font-face {
+    font-family: Kufi;
+    src: url('/_layouts/15/MOF/fonts/DroidKufi-Regular.ttf '), url('/_layouts/15/MOF/fonts/DroidKufi-Regular.eot');
+}
+
+@font-face {
+    font-family: Kufibold;
+    src: url('/_layouts/15/MOF/fonts/DroidKufi-Bold.ttf'), url('/_layouts/15/MOF/fonts/DroidKufi-bold.eot');
+}
+
+
+.class{
+    width: 100%;
+}
+
+.noBorder {
+    border: none;
+}
+
+
+/*Page Header*/
+header {
+    padding: 20px 0;
+}
+
+
+.searchBox {
+    direction: rtl;
+    float: left;
+    margin-right: 25px;
+}
+
+    .searchBox input[type=text] {
+        padding: 18px 20px 8px 10px;
+        -webkit-transition: width .4s ease-in-out;
+        transition: width .4s ease-in-out;
+        text-align: right;
+        margin-top: 0
+    }
+
+/*.searchBox input[type=text]:focus {
+            width: 100%;
+        }*/
+
+
+.top_Menu {
+    text-align: left;
+    margin-top: 15px;
+}
+
+    .top_Menu a {
+        margin: 7px;
+        font-size: 13px;
+        color: #666;
+        float: left;
+    }
+
+        .top_Menu a i {
+            text-align: right;
+            color: #e24755
+        }
+
+
+
+
+.MainMenu {
+    background: rgba(255,255,255,0.7);
+    display: block;
+    color: #555;
+    text-align: right;
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    border-top: #eee 1px solid;
+    border-left: #eee 1px solid;
+    border-right: #eee 1px solid;
+}
+
+    .MainMenu a {
+        padding: 10px 15px;
+        font-family: kufibold;
+        color: #444;
+        border-left: #eee 1px solid;
+    }
+
+
+        .MainMenu a:hover {
+            background: #0a89c1;
+            color: #fff;
+        }
+
+
+
+
+/*sliding banner*/
+.mainBanner {
+    height: 650px;
+    padding: 0;
+}
+
+    .mainBanner img {
+        width: 100%;
+        height: auto;
+    }
+
+/*the content*/
+.mainContents {
+    background: #fff;
+    padding: 0;
+}
+
+/*latest News*/
+.latesNewsSec {
+}
+
+.sec_header {
+    font: 140% Kufibold;
+    margin: 15px 0;
+    color: #444;
+}
+
+    .sec_header i {
+        padding-left: 10px;
+        color: #0F83B4
+    }
+
+    .sec_header a {
+        float: left;
+        color: #555;
+        text-align: center;
+        background: #eee;
+        padding: 1px 10px;
+    }
+
+        .sec_header a:hover {
+            background: #d0f2fa;
+        }
+
+        .sec_header a i {
+            color: #555;
+            padding-left: 0;
+        }
+
+
+
+.hp_NewsBox {
+}
+
+.hp_newsItem {
+    width: 100%;
+    font-size: 90%;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    direction: rtl;
+    border: #e6f7fe 1px solid;
+    padding: 15px;
+    display: block;
+    height: 420px;
+    overflow: hidden;
+}
+
+    .hp_newsItem:hover {
+        background: #e6f7fe;
+    }
+
+    .hp_newsItem div img {
+        width: 100%;
+        height: 100%;
+        min-height: 210px;
+        -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+        transition: width 0.5s, height 0.5s, transform 0.5s, margin 0.5s;
+    }
+
+.overflowH {
+    overflow: hidden;
+    height: 210px;
+}
+
+.hp_newsItem div img:hover {
+    width: 120%;
+    height: 120%;
+    margin: -15px;
+    transform: rotate(-2deg);
+}
+
+
+.hp_newsItem span {
+    text-align: right;
+    background: #e24755;
+    color: #fff;
+    font: 100% arial;
+    padding: 10px;
+    margin: -50px 25px 0 0;
+    position: absolute;
+    z-index: 1000;
+    right: 15px;
+    display: block;
+}
+
+    .hp_newsItem span:hover {
+        background: #0F83B4;
+    }
+
+.hp_newsItem h4 {
+    text-align: justify;
+    line-height: 1.7;
+    padding-top: 10px;
+    color: #555;
+    font-family: Kufibold;
+    font-size: 14px;
+}
+
+    .hp_newsItem h4:hover {
+        color: #0F83B4;
+    }
+
+.hp_newsItem p:hover {
+    color: #0F83B4;
+}
+
+.newsActions {
+    border: #e6f7fe 1px solid;
+    padding: 15px;
+    border-top: none;
+    text-align: left;
+    color: #ddd;
+}
+
+    .newsActions a {
+        color: #bbb;
+        margin: 0 3px;
+        font-family: tahoma;
+    }
+
+        .newsActions a:hover {
+            color: #0F83B4;
+        }
+
+.readMore {
+    float: right;
+    border-left: #eee 1px solid;
+    padding-left: 20px;
+    font-family: Kufi;
+}
+
+    .readMore i {
+        color: #e24755;
+    }
+
+/*latest News*/
+.newKuwaitSec {
+}
+
+    .newKuwaitSec img {
+        width: 100%;
+        height: auto;
+    }
+
+
+/*Auctions*/
+.auctionsBox {
+    padding-right: 0;
+}
+
+    .auctionsBox ul {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+        .auctionsBox ul li {
+            display: inline-table;
+            margin-top: 10px;
+            border-bottom: #eee 1px dotted;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+
+            .auctionsBox ul li a span {
+                padding: 5px;
+            }
+
+
+                .auctionsBox ul li a span:hover {
+                    background: #eee;
+                    padding: 5px;
+                }
+
+.auctionsImg {
+    width: 15%;
+    height: 80px;
+    float: right;
+    border: #eee 1px solid;
+    text-align: center;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+    .auctionsImg img {
+        width: 100%;
+        height: auto;
+        background: #eee;
+        float: right;
+        max-height: 78px;
+    }
+
+.auctionsBox ul li .auctionsImg:hover {
+    background: #fff;
+}
+
+.auctionsTitle {
+    width: 80%;
+    display: block;
+    float: right;
+    color: #555;
+    line-height: 1.8;
+    padding-top: 2px;
+}
+
+    .auctionsTitle b {
+        display: block;
+        color: #0F83B4
+    }
+
+
+/*Counters*/
+.counters {
+    padding: 0 0 0 10px;
+}
+
+.clockdiv div > span,
+.clockdiv > div {
+    border-radius: 3px;
+    display: inline-block
+}
+
+.clockdiv {
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    float: left
+}
+
+    .clockdiv > div {
+        padding: 7px;
+        background: #0a89c1
+    }
+
+
+    .clockdiv div > span {
+        width: 40px;
+        background: #40AEC9
+    }
+
+        .clockdiv div > span:hover {
+            background: #eee;
+            color: #7C7C7C
+        }
+
+.smalltext {
+    padding-top: 3px;
+    font-size: 13px
+}
+
+
+/*Statistics*/
+.StatisticsBox {
+    height: 250px;
+    background: #eee;
+    margin: 20px 0;
+}
+
+
+/*Sponsors*/
+.sponsors_box {
+    background: #0a89c1;
+}
+
+    .sponsors_box h1 {
+        color: #fff;
+    }
+
+
+
+    .sponsors_box div {
+        padding: 25px 20px;
+    }
+
+        .sponsors_box div img {
+            width: 100%;
+            height: auto;
+        }
+
+
+/*quick links*/
+.quickLinksBox {
+}
+
+.controls {
+    margin-top: -45px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.leftBanner {
+    padding-right: 0;
+}
+
+.leftBanner {
+    padding-right: 0;
+    padding-top: 18px;
+}
+
+    .leftBanner a {
+        padding-right: 0;
+    }
+
+        .leftBanner a img {
+            width: 100%;
+            height: auto;
+        }
+
+/*international boxes*/
+.int_RelBox {
+    padding: 0;
+}
+
+    .int_RelBox ul {
+        padding: 20px 20px 0 0;
+        background: #f5f5f5;
+        height: 300px;
+    }
+
+        .int_RelBox ul li {
+            display: inline-block;
+            border-bottom: #eee 1px;
+            width: 100%;
+        }
+
+            .int_RelBox ul li a {
+                background: #eee;
+                color: #555;
+                padding: 10px;
+                margin-bottom: 2px;
+                display: inline-block;
+                width: 100%;
+                border-bottom: #eee 1px solid;
+            }
+
+                .int_RelBox ul li a:hover {
+                    color: #0F83B4;
+                    background: #fff;
+                }
+
+                .int_RelBox ul li a i {
+                    float: right;
+                    margin-left: 10px;
+                    color: #e24755;
+                }
+
+
+.int_MapBox {
+    background: #FFEF9C;
+    height: 300px;
+}
+
+
+
+.int_RelBox2 {
+    padding-left: 0px;
+    padding-right: 0;
+}
+
+    .int_RelBox2 ul {
+        padding: 0;
+    }
+
+        .int_RelBox2 ul li {
+            display: inline-block;
+            border-bottom: #eee 1px;
+            width: 100%;
+        }
+
+            .int_RelBox2 ul li a {
+                background: #eee;
+                color: #555;
+                padding: 10px;
+                margin-bottom: 2px;
+                display: inline-block;
+                width: 100%;
+                border-bottom: #eee 1px solid;
+            }
+
+                .int_RelBox2 ul li a:hover {
+                    color: #0F83B4;
+                    background: #d0f2fa;
+                }
+
+                .int_RelBox2 ul li a i {
+                    float: right;
+                    margin-left: 10px;
+                    color: #e24755;
+                }
+
+
+
+
+
+.general_ListBox {
+    border-left: #ccc 1px dotted;
+}
+
+    .general_ListBox .sec_header {
+        padding-right: 0;
+        margin-top: 0;
+    }
+
+    .general_ListBox ul {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+        .general_ListBox ul li {
+            display: inline-block;
+            border-bottom: #ccc 1px;
+            width: 100%;
+        }
+
+            .general_ListBox ul li a {
+                color: #555;
+                padding: 7px;
+                margin-bottom: 5px;
+                display: inline-block;
+                width: 100%;
+                border-bottom: #eee 1px solid;
+            }
+
+                .general_ListBox ul li a:hover {
+                    color: #0F83B4;
+                }
+
+
+
+
+
+/*footer*/
+.topFooter {
+    background: #f5f5f5 url(../img/footerImage2.png) no-repeat left bottom;
+    padding: 40px 0;
+}
+
+    .topFooter div .sec_header {
+        margin-top: 0;
+    }
+
+
+
+.copyRight {
+    background: #555;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
+
+.footerMenu {
+    color: #555;
+    direction: rtl;
+    background: #fff;
+    padding: 20px;
+}
+
+    .footerMenu ul {
+        margin-right: 20px;
+    }
+
+        .footerMenu ul li {
+            color: #555;
+            direction: rtl;
+            padding: 8px;
+        }
+
+            .footerMenu ul li a:hover {
+                color: #0F83B4;
+            }
+
+            .footerMenu ul li a:visited {
+                color: #555;
+            }
+
+
+
+
+
+/* footer social icons */
+.topFooter ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+    .topFooter ul.social-network li {
+        display: inline;
+        margin: 0 5px;
+    }
+
+
+/* footer social icons */
+.topFooter .social-network a.icosnap:hover {
+    background-color: #fffc00;
+}
+
+.topFooter .social-network a.icoyoutube:hover {
+    background-color: #BD3518;
+}
+
+.topFooter .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.topFooter .social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.topFooter .social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.topFooter .social-network a.icoinstagram:hover {
+    background-color: #9639bb;
+    color: #fff;
+}
+
+.topFooter .social-network a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+
+.topFooter .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.topFooter .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.topFooter .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoinstagram:hover i, .social-network a.icoyoutube:hover i {
+    color: #fff;
+}
+
+.topFooter .topFooter a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.topFooter .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: #ddd 1px solid;
+}
+
+.topFooter .social-circle li i {
+    margin: 0;
+    line-height: 35px;
+    text-align: center;
+    color: #888;
+}
+
+.topFooter .social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.topFooter .social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+
+
+
+

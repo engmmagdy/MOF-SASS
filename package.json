@@ -1,0 +1,28 @@
+{
+    "name": "mof-portal",
+    "version": "1.0.0",
+    "description": "MOF Portal",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "@material/select": "^0.24.0",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-clean-css": "^3.9.3",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssmin": "^0.2.0",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-sass": "^3.2.1",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-watch": "^5.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "Mohammed Magdy",
+    "license": "ISC"
+}

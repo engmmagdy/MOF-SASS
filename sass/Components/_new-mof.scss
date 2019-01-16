@@ -1,0 +1,83 @@
+.new-mof {
+    display: inline-block;
+    width: 100%;
+    padding: 3rem 15px;
+    min-height: 33rem;
+    .text-center {
+        margin-#{$left}: 60px;
+        text-align: $right;
+        @include breakpoint(wide) {
+            text-align: center;
+        }
+    }
+    article {
+        text-align: center;
+        display: inline-block;
+        width: 19%;
+        border-#{$left}: 1px solid #e3e3e3;
+        @include breakpoint(wide) {
+            width: 21%;
+        }
+        &:last-child {
+            border-#{$left}: 0;
+        }
+        a {
+            display: block;
+            color: #000000;
+            padding: 20px 10px;
+            transition: background 0.25s cubic-bezier(0.0, 0.0, 0.2, 1);
+            -webkit-transition: background 0.25s cubic-bezier(0.0, 0.0, 0.2, 1);
+            -moz-transition: background 0.25s cubic-bezier(0.0, 0.0, 0.2, 1);
+            -ms-transition: background 0.25s cubic-bezier(0.0, 0.0, 0.2, 1);
+            .SVG-icon {
+                margin: 0 auto;
+                margin-bottom: 10px;
+                svg {
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    fill: #000000;
+                }
+            }
+            span {
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            &:hover {
+                background: #405d95;
+                color: #fff;
+                border-radius: 4px;
+                svg {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+    .mof-message {
+        text-align: $right;
+        margin-top: 3rem;
+        display: inline-block;
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #303030;
+            margin-bottom: 1.4rem;
+        }
+        p {
+            font-size: 0.98rem;
+            line-height: 2;
+            font-weight: 400;
+            color: #303030;
+            width: 73%;
+            font-family: "JFlat";
+            @include breakpoint(wide) {
+                width: 94%;
+            }
+        }
+    }
+    .buttons {
+        margin-top: 20px;
+        a {
+            margin-#{$right}: 0;
+        }
+    }
+}

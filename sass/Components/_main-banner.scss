@@ -1,0 +1,248 @@
+.mainBanner {
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 0; //background-image: linear-gradient(48deg, #dbd3b0, #294d9b);
+    background: #f9f9f9;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+
+        @include breakpoint(wide) {
+            // width: 100%;
+        }
+    }
+}
+
+.home-announcments {
+    // position: absolute;
+    // top: 3rem;
+    // #{$right}: 2rem;
+    // @include breakpoint(wide){
+    //     #{$right}: 18.9rem;
+    // }
+    margin-top: -29.2rem;
+    text-align: $right;
+
+    @include breakpoint(wide) {
+        margin-top: -27rem;
+    }
+
+    .svgIcon {
+        float: $right;
+        margin-top: 15px;
+        margin-#{$left}: 5px;
+
+        svg {
+            width: 36px;
+            height: 36px;
+            display: inline-block;
+            fill: #fff;
+        }
+    }
+
+    .small-title {
+        font-size: 22px;
+        font-weight: 800;
+        float: $right;
+        margin-top: 22px;
+        margin-bottom: 0;
+        margin-#{$left}: 15px;
+        color: #fff;
+    }
+
+    .slider {
+        display: inline-block;
+        width: 60%;
+    }
+
+    article {
+
+        // clear: both;
+        // height: 100%;
+        .news-img {
+            float: right;
+            margin-#{$left}: 16px;
+            width: 35%;
+            min-height: 265px;
+        }
+
+        img {
+            width: 98%;
+            height: auto;
+            max-width: 100%; //border: 1px solid #bdbdbd;
+            padding: 2px;
+            margin: 0 auto;
+        }
+
+        .news-title {
+            float: $right;
+            margin-top: 0;
+            font-size: 1.8rem;
+            margin-#{$left}: 0;
+            font-weight: 600;
+            text-shadow: 0px 1px 5px #fff;
+
+            a {
+                color: #405d95;
+                line-height: 1.8;
+                text-align: justify;
+
+                &:hover {
+                    //color: #405d95;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .news-content {
+            width: 85%;
+            display: inline-block; //border-#{$right}: 1px dashed #c5c5c5;
+            padding-#{$right}: 0;
+
+            .news-data {
+                display: block;
+                margin-bottom: 15px;
+                color: #000000;
+
+                .material-icons {
+                    float: $right;
+                    margin-left: 5px;
+                    color: #000000;
+                }
+
+                span {
+                    font-size: 15px;
+                }
+            }
+
+            .news-summary {
+                clear: both;
+                display: inline-block;
+                margin-bottom: 30px;
+                margin-top: 0;
+            }
+
+            .more-btn {
+                text-align: center;
+                display: inline-block;
+                color: #fff;
+                padding: 10px 45px;
+                border-radius: 25px;
+                transition: -webkit-box-shadow .15s ease-in-out;
+                -webkit-transition: -webkit-box-shadow .15s ease-in-out;
+                transition: box-shadow .15s ease-in-out;
+                transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+                -webkit-transition: box-shadow .15s ease-in-out;
+                -moz-transition: box-shadow .15s ease-in-out;
+                -ms-transition: box-shadow .15s ease-in-out;
+                -o-transition: box-shadow .15s ease-in-out;
+                background: #405d95;
+
+                span {
+                    font-size: 1rem;
+                    font-weight: 600;
+                    margin-#{$left}: 0;
+                }
+
+                &:hover {
+                    //box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #b2aaaa;
+                    opacity: 0.85;
+                }
+
+                .material-icons {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .arrows {
+        position: absolute;
+        #{$left}: auto;
+        top: 340px;
+        font-size: 35px;
+        color: #6b6b6b;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 99;
+        transition: background-color .2s ease-in-out;
+        -webkit-transition: background-color .2s ease-in-out;
+        -moz-transition: background-color .2s ease-in-out;
+        -ms-transition: background-color .2s ease-in-out;
+        border: 1px solid #6b6b6b;
+        width: 45px;
+        height: 45px;
+        padding-top: 4px;
+
+        &:hover {
+            color: #fff;
+            background: #405d95;
+            border-color: #405d95;
+        }
+    }
+
+    .prevArrow {
+        #{$right}: 0;
+    }
+
+    .nextArrow {
+        #{$right}: 55px;
+    }
+}
+
+.minister-word {
+    display: none;
+    position: absolute;
+    #{$left}: -7rem;
+    top: 4rem;
+    width: 20%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+
+    &:hover {
+        #{$left}: -100px;
+
+        h2 {
+            background: #165ea9;
+        }
+    }
+
+    a {
+        display: inline-block;
+        width: 100%;
+
+        figure {
+            border-radius: 50%;
+            width: 110px;
+            height: 110px;
+            float: $right;
+            margin-#{$left}: 15px;
+            overflow: hidden; // border-#{$right}: 3px solid #405d95;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.7;
+            background: #405d95;
+            height: 100px;
+            margin-top: 5px;
+            width: 70%;
+            padding-top: 27px;
+            padding-#{$left}: 90px;
+            transition: background-color .3s ease;
+            -webkit-transition: background-color .3s ease;
+            -moz-transition: background-color .3s ease;
+            -ms-transition: background-color .3s ease;
+        }
+    }
+}

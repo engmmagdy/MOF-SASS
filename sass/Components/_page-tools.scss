@@ -1,0 +1,45 @@
+.page-tools ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    list-style: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    .ms-comm-ratingSeparator {
+        margin-right: 10px;
+        margin-left: 10px;
+        border-left: 1px solid #d7d7d7;
+    }
+    .ms-comm-ratingCountContainer {
+        color: #405d95;
+        font-family: "JFlat";
+    }
+    .icon {
+        display: inline-flex;
+        padding: $icons-padding;
+        border-radius: 50%;
+        @include transition();
+        >svg {
+            fill: rgba(#000, .54);
+            width: 24px;
+            height: 24px;
+            font-weight: 600;
+        }
+        &:hover {
+            background-color: rgba(#000, .2);
+            >svg {
+                fill: rgba(#000, .54);
+            }
+        }
+    }
+    span[id$=PageRatingControl] {
+        margin-#{$left}: 10px;
+        display: inline-block;
+    }
+}

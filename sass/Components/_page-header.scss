@@ -1,0 +1,46 @@
+.page-header {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin: 0;
+    border-bottom: 1px solid #e7e7e7;
+    background: url(/_layouts/15/images/mof/bg-pattern.jpg) center -130px no-repeat;
+    background-size: cover;
+    position: relative;
+    // filter: grayscale(100%);
+    // -webkit-filter: grayscale(100%);
+    overflow: hidden;
+    &:before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgba(64, 93, 149, 0.88);
+        top: 0;
+        
+    }
+    .subsite-title {
+        display: none;
+    }
+    .top-banner {
+        h2 {
+            font-size: 2.1rem;
+            margin: 0;
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            font-weight: 800;
+            color: #fff;
+            font-family: 'JFlat';
+            span {
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    width: 30px;
+                    background: #fff;
+                    height: 7px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.side-nav {
+    float: $right;
+    margin-#{$right}: 10px;
+    min-width: 250px;
+    padding-#{$left}: 30px;
+    margin-#{$left}: 0;
+
+    &#sideNavBox {
+        margin-#{$right}: 0;
+        margin-#{$left}: 0;
+    }
+
+
+    @include breakpoint(isMobile) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        height: 100%;
+        padding: 110px 35px 30px 35px;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 10;
+        transform: translate(-100%, 0);
+        transition: all 0.3s ease;
+    }
+
+    @include breakpoint(large) {
+        padding-#{$left}: 40px;
+        min-width: 290px;
+    }
+
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+
+    .ms-core-sideNavBox-removeLeftMargin {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    &.is-open {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .ms-core-listMenu-verticalBox {
+        a.static {
+            color: #6a6a6a;
+            padding: 10px;
+            margin-bottom: 0;
+            border-bottom: 1px solid #ddd;
+            font-family: "CairoFont",Arial;
+            font-weight: 600;
+            -webkit-transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+            transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+            background: none;
+            width: auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            font-size: 0.92rem;
+
+            &:hover {
+                color: #000;
+                background: none;
+            }
+        }
+
+        a.selected {
+            color: #1161b9;
+            background: none;
+
+            &:hover {
+                color: #1161b9;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,202 @@
+.minister-speak {
+    position: relative;
+    min-height: 255px;
+    max-height: 255px;
+    background: #ddd;
+    overflow: hidden;
+    * {
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+    }
+    img {
+        width: 100%;
+    }
+    figure {
+        >a {
+            position: relative;
+            display: block;
+            span {
+                position: absolute;
+                bottom: 40px;
+                #{$right}: 0;
+                color: #fff;
+                z-index: 2;
+                font-size: 1em;
+                width: 100%;
+                text-align: center;
+                background: rgba(0, 0, 0, 0.7);
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+        figcaption {
+            opacity: 0;
+            position: absolute;
+            top: 33%;
+            cursor: default;
+            .summary {
+                font-weight: 300;
+                color: #6d6d6d;
+                line-height: 22px;
+                background: rgba(255, 255, 255, 0.90);
+                padding: 10px 25px 5px;
+                font-size: 0.90em;
+                text-align: center;
+                >span {
+                    margin: 0;
+                    text-align: center;
+                    line-height: 29px;
+                    font-size: 1em;
+                    color: #414243;
+                    font-weight: normal;
+                    display: inline-block;
+                }
+                >h3 {
+                    display: block;
+                    margin: 5px 0 15px;
+                    font-weight: 600;
+                    color: #222;
+                    font-size: 1.3em;
+                }
+                .btn-more {
+                    position: relative;
+                    margin: 0;
+                    top: 5px;
+                    display: inline-block;
+                    i.material-icons {
+                        padding-top: 5px;
+                        background-color: #294d9b;
+                        color: #fff;
+                        font-size: 1.5em;
+                        text-align: center;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        margin-right: 10px;
+                        transition: background-color 0.2s ease-in-out;
+                        -webkit-transition: background-color 0.2s ease-in-out;
+                        -moz-transition: background-color 0.2s ease-in-out;
+                        -ms-transition: background-color 0.2s ease-in-out;
+                        -o-transition: background-color 0.2s ease-in-out;
+                    }
+                }
+            }
+        }
+        &:hover {
+            >a {
+                >span {
+                    opacity: 0;
+                    @include breakpoint(isMobile) {
+                        opacity: 1;
+                    }
+                }
+                &:before {
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
+
+.ministry-ads {
+    .slick-dots {
+        #{$left}: 0;
+        bottom: auto;
+        top: -47px;
+    }
+    .more-btn {
+        position: absolute;
+        top: 31px;
+        #{$left}: 100px;
+        color: #4f4f4f;
+        font-size: 14px;
+        span {
+            margin-#{$left}: 0;
+        }
+        i {
+            font-size: 17px;
+        }
+        :hover {
+            color: #294d9b;
+        }
+    }
+}
+
+.economy-reports {
+    padding-top: 10px;
+    background: rgba(243, 243, 243, 0.7);
+    border-radius: 5px;
+    max-height: 443px;
+    min-height: 443px;
+    .file-list {
+        li {
+            float: $right;
+            width: 50%;
+            text-align: center;
+            &:last-child {
+                a {
+                    border-bottom: 0;
+                }
+            }
+            a {
+                color: #000;
+                padding-bottom: 20px;
+                display: block;
+                font-size: 15px;
+                transition: all .2s ease-in-out;
+                -webkit-transition: all .2s ease-in-out;
+                -moz-transition: all .2s ease-in-out;
+                -ms-transition: all .2s ease-in-out;
+                border-bottom: 1px dashed #ddd;
+                padding: 10px;
+                fill: #5e5e5e;
+
+                &:hover {
+                    color: rgb(62, 93, 159);
+                    .material-icons{
+                        color: rgb(62, 93, 159);
+                    }
+                    svg {
+                        fill: rgb(62, 93, 159);
+                    }
+                }
+            }
+            .svgIcon {
+                display: block;
+                margin-#{$left}: 5px;
+                text-align: center;
+
+                .material-icons {
+                    font-size: 45px;
+                    color: #7b7b7b;
+                }
+                svg {
+                    width: 52px;
+                    height: 52px;
+                    transition: all .2s ease-in-out;
+                    -webkit-transition: all .2s ease-in-out;
+                    -moz-transition: all .2s ease-in-out;
+                    -ms-transition: all .2s ease-in-out;
+                }
+            }
+        }
+    }
+  
+}
+
+.btn-more {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 25px;
+}
+.transparency {
+    .breif {
+        line-height: 31px;
+        text-align: $right;
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,41 @@
+.breadcrumb {
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-#{$right}: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    font-family: "JFlat";
+    >span {
+        a {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            display: inline-block;
+        }
+        &:nth-child(2n) {
+            padding-right: .5rem;
+            padding-left: .5rem;
+            color: #fff;
+            position: relative;
+            top: 2px;
+        }
+    }
+    .current {
+        color: #fff;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .BreadCrumbMain {
+        font-size: 0;
+        &:before {
+            font-size: 14px;
+            @if $right==right {
+                content: "الرئيسية";
+            }
+            @else {
+                content: "Home";
+            }
+        }
+    }
+}

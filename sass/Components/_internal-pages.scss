@@ -1,0 +1,146 @@
+#contentBox {
+    // background: #fff;
+}
+
+.inner-page {
+
+    // background: #fff;
+    // padding-top: 1.8rem;
+    // padding-bottom: 7rem;
+    .inner--img {
+        position: relative;
+        margin-left: 1rem;
+        margin-bottom: 1.2rem;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd !important;
+            padding: 3px;
+        }
+    }
+
+    .inner--content {
+        .inner--title {
+            font-size: 1.4rem;
+            line-height: 1.7;
+            font-weight: 600;
+            margin-top: 0;
+            color: #101010;
+        }
+
+        .inner--date {
+            margin-bottom: 10px;
+            display: inline-block;
+            color: #9f1616;
+            font-size: 1rem;
+            font-family: "JFlat";
+        }
+
+        .inner--location,
+        .event--category {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1rem;
+            font-family: "JFlat";
+        }
+
+        .inner-description {
+            font-size: 1rem;
+            color: #101010;
+            line-height: 2;
+            text-align: justify;
+            font-family: "JFlat";
+        }
+    }
+}
+
+
+// Leadership List
+
+.mof-leaders-list {
+    .card {
+        margin-bottom: 30px;
+
+        .card-header {
+            max-height: 15rem;
+        }
+
+        .card-content {
+            padding: 15px;
+
+            .card--title {
+                text-align: center;
+
+                h2 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                    line-height: 1.8;
+                    margin-top: 0;
+                }
+
+                h3 {
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 1.7;
+                    font-family: "JFlat";
+                    margin-top: 5px;
+                }
+            }
+        }
+
+    }
+
+    .dfwp-list .dfwp-item:first-child {
+
+        div[class*=col] {
+            width: 100%;
+
+            .card {
+                box-shadow: 0px -1px 20px -5px #beb9b9;
+
+                .card-header {
+                    width: 27.6%;
+                    float: $right;
+                    max-height: 100%;
+                }
+
+                .card-content {
+                    .card--title {
+                        text-align: $right;
+
+                        h2 {
+                            font-size: 28px;
+                        }
+
+                        h3 {
+
+                            font-size: 20px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.executive-details {
+    .inner--content {
+        .inner--title {
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .inner--subTitle {
+            margin-bottom: 20px;
+            color: #0f61ba;
+            font-size: 1rem;
+            display: inline-block;
+        }
+    }
+
+}

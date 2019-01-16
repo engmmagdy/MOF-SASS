@@ -1,0 +1,23 @@
+.home-news {
+
+    @include breakpoint(wide) {}
+
+    div[class^=col-] {
+        padding-#{$left}: 0;
+    }
+
+    article {
+        margin-bottom: 20px;
+    }
+
+
+    .card-content {
+        min-height: auto;
+        padding-bottom: 0;
+
+        .news-date {
+            color: #4565a1;
+        }
+    }
+
+}

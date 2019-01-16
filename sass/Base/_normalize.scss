@@ -1,0 +1,147 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #2b79c2 ;
+    color: #fff;
+}
+
+::selection {
+    background: #2b79c2 ;
+    color: #fff;
+}
+
+:-moz-placeholder,
+.form-control::-moz-placeholder,
+::-webkit-input-placeholder,
+.form-control::-webkit-input-placeholder,
+:-ms-input-placeholder,
+.form-control::-ms-input-placeholder {
+    color: $input-placeholder-color;
+}
+
+html {
+    @include breakpoint(x-small) {
+        font-size: $xs-fontsize;
+    }
+    @include breakpoint(small) {
+        font-size: $sm-fontsize;
+    }
+    @include breakpoint(mid) {
+        font-size: $mid-fontsize;
+    }
+    @include breakpoint(large) {
+        font-size: $font-size;
+    }
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $text-color;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+    direction: $dir;
+    
+    @include breakpoint(x-small) {
+        font-size: $xs-fontsize;
+    }
+    @include breakpoint(small) {
+        font-size: $sm-fontsize;
+    }
+    @include breakpoint(mid) {
+        font-size: $mid-fontsize;
+    }
+    @include breakpoint(large) {
+        font-size: $font-size;
+    }
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+// Links
+a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:active {
+        color: inherit;
+        text-decoration: $link-hover-decoration;
+    }
+}
+
+// Figures
+//
+// We reset this here because previously Normalize had no `figure` margins. This
+// ensures we don't break anyone's use of the element.
+figure {
+    margin: 0;
+}
+
+// Images
+img {
+    vertical-align: middle;
+}
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+// Lists
+// ==========================================================================
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+// Paragraph
+// ==========================================================================
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+*:focus,
+*:active,
+*:hover {
+    outline: none;
+}

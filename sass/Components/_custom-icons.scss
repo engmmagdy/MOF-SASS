@@ -1,0 +1,1087 @@
+@font-face {
+  font-family: 'customIcons';
+  src: url('/_layouts/15/MOF/fonts/customIcons.eot?jih9ar');
+  src: url('/_layouts/15/MOF/fonts/customIcons.eot?jih9ar#iefix') format('embedded-opentype'), url('/_layouts/15/MOF/fonts/customIcons.ttf?jih9ar') format('truetype'), url('/_layouts/15/MOF/fonts/customIcons.woff?jih9ar') format('woff'), url('/_layouts/15/MOF/fonts/customIcons.svg?jih9ar#customIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('/_layouts/15/MOF/fonts/icomoon.eot?jih9ar');
+  src: url('/_layouts/15/MOF/fonts/icomoon.eot?jih9ar#iefix') format('embedded-opentype'), url('/_layouts/15/MOF/fonts/icomoon.ttf?jih9ar') format('truetype'), url('/_layouts/15/MOF/fonts/icomoon.woff?jih9ar') format('woff'), url('/_layouts/15/MOF/fonts/icomoon.svg?jih9ar#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="Micons-"],
+[class*=" Micons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'customIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Micons-blue_arrow:before {
+  content: "\e91f";
+}
+
+.Micons-refresh:before {
+  content: "\e920";
+}
+
+.Micons-time:before {
+  content: "\e921";
+}
+
+
+.Micons-dot_arrow:before {
+  content: "\e913";
+}
+
+.Micons-album:before {
+  content: "\e914";
+}
+
+.Micons-blog:before {
+  content: "\e915";
+}
+
+.Micons-commentuser:before {
+  content: "\e916";
+}
+
+.Micons-discussion:before {
+  content: "\e917";
+}
+
+.Micons-dot_arrow2:before {
+  content: "\e918";
+}
+
+.Micons-download:before {
+  content: "\e919";
+}
+
+.Micons-image:before {
+  content: "\e91a";
+}
+
+.Micons-location2:before {
+  content: "\e91b";
+}
+
+.Micons-newletter:before {
+  content: "\e91c";
+}
+
+.Micons-pdf:before {
+  content: "\e91d";
+}
+
+.Micons-video:before {
+  content: "\e91e";
+}
+
+.Micons-location:before {
+  content: "\e900";
+}
+
+.Micons-Shape-564:before {
+  content: "\e911";
+}
+
+.Micons-daimon:before {
+  content: "\e900";
+}
+
+.Micons-print:before {
+  content: "\e90e";
+}
+
+.Micons-send:before {
+  content: "\e90f";
+}
+
+.Micons-sound:before {
+  content: "\e910";
+}
+
+.Micons-Shape-13:before {
+  content: "\e90c";
+}
+
+.Micons-Shape-1:before {
+  content: "\e901";
+}
+
+.Micons-Shape-2:before {
+  content: "\e902";
+}
+
+.Micons-Shape-3:before {
+  content: "\e903";
+}
+
+.Micons-Shape-4:before {
+  content: "\e904";
+}
+
+.Micons-Shape-5:before {
+  content: "\e905";
+}
+
+.Micons-Shape-6:before {
+  content: "\e906";
+}
+
+.Micons-Shape-7:before {
+  content: "\e907";
+}
+
+.Micons-Shape-8:before {
+  content: "\e908";
+}
+
+.Micons-Shape-9:before {
+  content: "\e909";
+}
+
+.Micons-Shape-10:before {
+  content: "\e90a";
+}
+
+.Micons-Shape-11:before {
+  content: "\e90b";
+}
+
+.Micons-Shape-12:before {
+  content: "\e912";
+}
+
+.Micons-arrow:before {
+  content: "\e90d";
+}
+
+
+// Icomoon
+
+[class^="icomoon-"],
+[class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-menu:before {
+  content: "\e986";
+}
+
+.icomoon-events-calender:before {
+  content: "\e93a";
+}
+
+
+.icomoon-VideoGallery-Play:before {
+  content: "\e93d";
+}
+
+.icomoon-Video-Gallery-LIBRARY:before {
+  content: "\e93e";
+}
+
+.icomoon-Video-Gallery-PUBLICATIONS:before {
+  content: "\e93f";
+}
+
+.icomoon-about:before {
+  content: "\e940";
+}
+
+.icomoon-SERVICES:before {
+  content: "\e941";
+}
+
+.icomoon-RULES:before {
+  content: "\e942";
+}
+
+.icomoon-media:before {
+  content: "\e943";
+}
+
+.icomoon-open-data:before {
+  content: "\e945";
+}
+
+.icomoon-open-share:before {
+  content: "\e946";
+}
+
+.icomoon-Services-Private-Sector-Suppliers:before {
+  content: "\e947";
+}
+
+.icomoon-Services-Individuals-Economic-Integration:before {
+  content: "\e948";
+}
+
+.icomoon-Services-gov-Tax-Domicile:before {
+  content: "\e949";
+}
+
+.icomoon-Services-gov-E-Dirham:before {
+  content: "\e94a";
+}
+
+.icomoon-Services-gov-Federal:before {
+  content: "\e94b";
+}
+
+.icomoon-Services-gov-Budget:before {
+  content: "\e94c";
+}
+
+.icomoon-Services-gov-CustomerCare:before {
+  content: "\e94d";
+}
+
+.icomoon-Services-gov-Revenue:before {
+  content: "\e94e";
+}
+
+.icomoon-Services-Card-Requirement:before {
+  content: "\e94f";
+}
+
+.icomoon-Services-Card-Deﬁnition:before {
+  content: "\e950";
+}
+
+.icomoon-Services-Card-description:before {
+  content: "\e951";
+}
+
+.icomoon-Services-Card-Procedures:before {
+  content: "\e952";
+}
+
+.icomoon-Services-Card-Start-:before {
+  content: "\e953";
+}
+
+.icomoon-Services-Card-Rating:before {
+  content: "\e954";
+}
+
+.icomoon-Services-Card-user-guid:before {
+  content: "\e955";
+}
+
+.icomoon-Services-Card-FAQ:before {
+  content: "\e956";
+}
+
+.icomoon-Services-Card-Location:before {
+  content: "\e957";
+}
+
+.icomoon-Services-Card-Target-Audience:before {
+  content: "\e958";
+}
+
+.icomoon-Services-INDIVIDUALS:before {
+  content: "\e959";
+}
+
+.icomoon-Services-PRIVATE-SECTORS:before {
+  content: "\e95a";
+}
+
+.icomoon-Services-GOVERNMENT:before {
+  content: "\e95b";
+}
+
+.icomoon-Kheir-arrow-left:before {
+  content: "\e95c";
+}
+
+.icomoon-Kheir-arrow-right:before {
+  content: "\e95d";
+}
+
+.icomoon-Kheir-arrow-dowen:before {
+  content: "\e95e";
+}
+
+.icomoon-Kheir-Social-:before {
+  content: "\e95f";
+}
+
+.icomoon-Kheir-Volunteer:before {
+  content: "\e960";
+}
+
+.icomoon-Kheir-Private:before {
+  content: "\e961";
+}
+
+.icomoon-innovation-Committee:before {
+  content: "\e962";
+}
+
+.icomoon-innovation-Government:before {
+  content: "\e963";
+}
+
+.icomoon-innovation-week:before {
+  content: "\e964";
+}
+
+.icomoon-Happiness-Stay-active:before {
+  content: "\e965";
+}
+
+.icomoon-Happiness-Eat-well:before {
+  content: "\e966";
+}
+
+.icomoon-Happiness-Get-hobby:before {
+  content: "\e967";
+}
+
+.icomoon-Happiness-Spend-time:before {
+  content: "\e968";
+}
+
+.icomoon-Happiness-Be-content:before {
+  content: "\e969";
+}
+
+.icomoon-Happiness-Stay-away:before {
+  content: "\e96a";
+}
+
+.icomoon-Happiness-Sleep-well:before {
+  content: "\e96b";
+}
+
+.icomoon-Happiness-Get-fresh-air:before {
+  content: "\e96c";
+}
+
+.icomoon-Happiness-Travel:before {
+  content: "\e96d";
+}
+
+.icomoon-Happiness-grateful:before {
+  content: "\e96e";
+}
+
+.icomoon-Happiness-Promoting:before {
+  content: "\e96f";
+}
+
+.icomoon-events2-Event-Photos:before {
+  content: "\e970";
+}
+
+.icomoon-events2-Event-Videos:before {
+  content: "\e971";
+}
+
+.icomoon-events2-EventSocial:before {
+  content: "\e972";
+}
+
+.icomoon-events2-EventPress:before {
+  content: "\e973";
+}
+
+.icomoon-events2-EventDetails:before {
+  content: "\e974";
+}
+
+.icomoon-E-Participation-FOLLOW-UP-svg:before {
+  content: "\e975";
+}
+
+.icomoon-E-Participation-facebook:before {
+  content: "\e976";
+}
+
+.icomoon-E-Participation-twitter:before {
+  content: "\e977";
+}
+
+.icomoon-E-Participation-youtube:before {
+  content: "\e978";
+}
+
+.icomoon-E-Participation-instagram:before {
+  content: "\e979";
+}
+
+.icomoon-E-Participation-vimeo:before {
+  content: "\e97a";
+}
+
+.icomoon-E-Participation-forum:before {
+  content: "\e97b";
+}
+
+.icomoon-E-Participation-wikipedia:before {
+  content: "\e97c";
+}
+
+.icomoon-E-Participation-share:before {
+  content: "\e97d";
+}
+
+.icomoon-E-Participation-survey:before {
+  content: "\e97e";
+}
+
+.icomoon-E-Participation-contact:before {
+  content: "\e97f";
+}
+
+.icomoon-E-Participation-inquiries:before {
+  content: "\e980";
+}
+
+.icomoon-E-Participation-contactus:before {
+  content: "\e981";
+}
+
+.icomoon-E-Participation-faq:before {
+  content: "\e982";
+}
+
+.icomoon-read-more-en:before {
+  content: "\e983";
+}
+
+.icomoon-read-more-ar:before {
+  content: "\e984";
+}
+
+.icomoon-eye:before {
+  content: "\e924";
+}
+
+.icomoon-slider-arrow:before {
+  content: "\e923";
+}
+
+.icomoon-footer-calender:before {
+  content: "\e901";
+}
+
+.icomoon-footer-call:before {
+  content: "\e902";
+}
+
+.icomoon-footer-email:before {
+  content: "\e903";
+}
+
+.icomoon-footer-fax:before {
+  content: "\e904";
+}
+
+.icomoon-footer-flash:before {
+  content: "\e905";
+}
+
+.icomoon-footer-java:before {
+  content: "\e906";
+}
+
+.icomoon-footer-office:before {
+  content: "\e907";
+}
+
+.icomoon-footer-pdf:before {
+  content: "\e908";
+}
+
+.icomoon-footer-po:before {
+  content: "\e909";
+}
+
+.icomoon-footer-rar:before {
+  content: "\e90a";
+}
+
+.icomoon-footer-visits:before {
+  content: "\e90b";
+}
+
+.icomoon-Media-INFOGRAPHICS:before {
+  content: "\e90c";
+}
+
+.icomoon-menu-arrow-down:before {
+  content: "\e90f";
+}
+
+.icomoon-menu-Communication:before {
+  content: "\e910";
+}
+
+.icomoon-menu-Help:before {
+  content: "\e911";
+}
+
+.icomoon-menu-info:before {
+  content: "\e912";
+}
+
+.icomoon-menu-language:before {
+  content: "\e913";
+}
+
+.icomoon-menu-search:before {
+  content: "\e914";
+}
+
+.icomoon-menu-Sign-in:before {
+  content: "\e915";
+}
+
+.icomoon-menu-Sitemap:before {
+  content: "\e916";
+}
+
+.icomoon-menu-Speech:before {
+  content: "\e917";
+}
+
+.icomoon-side-comment:before {
+  content: "\e918";
+}
+
+.icomoon-side-happyness:before {
+  content: "\e919";
+}
+
+.icomoon-side-listen:before {
+  content: "\e91a";
+}
+
+.icomoon-side-live-chat:before {
+  content: "\e91b";
+}
+
+.icomoon-side-print:before {
+  content: "\e91c";
+}
+
+.icomoon-side-share:before {
+  content: "\e91d";
+}
+
+.icomoon-tap--Private:before {
+  content: "\e91e";
+}
+
+.icomoon-tap-Government:before {
+  content: "\e91f";
+}
+
+.icomoon-tap-img:before {
+  content: "\e920";
+}
+
+.icomoon-tap-Individuals:before {
+  content: "\e921";
+}
+
+.icomoon-tap-Smart:before {
+  content: "\e922";
+}
+
+.icomoon-neutral-face:before {
+  content: "\e900";
+}
+
+.icomoon-neutral-face2:before {
+  content: "\e90d";
+}
+
+.icomoon-smiling-face:before {
+  content: "\e90e";
+}
+
+.icomoon-smiling-face2:before {
+  content: "\e925";
+}
+
+.icomoon-sad-face:before {
+  content: "\e926";
+}
+
+.icomoon-sad-face2:before {
+  content: "\e927";
+}
+
+.icomoon-laughing-face:before {
+  content: "\e928";
+}
+
+.icomoon-laughing-face2:before {
+  content: "\e929";
+}
+
+.icomoon-laughing-face3:before {
+  content: "\e92a";
+}
+
+.icomoon-laughing-face4:before {
+  content: "\e92b";
+}
+
+.icomoon-worried-face:before {
+  content: "\e92c";
+}
+
+.icomoon-worried-face2:before {
+  content: "\e92d";
+}
+
+.icomoon-grinning-face:before {
+  content: "\e92e";
+}
+
+.icomoon-grinning-face2:before {
+  content: "\e92f";
+}
+
+.icomoon-sad-face3:before {
+  content: "\e930";
+}
+
+.icomoon-sad-face4:before {
+  content: "\e931";
+}
+
+.icomoon-worried-face-eyebrows:before {
+  content: "\e932";
+}
+
+.icomoon-worried-face-eyebrows2:before {
+  content: "\e933";
+}
+
+.icomoon-face-closed-meyes:before {
+  content: "\e934";
+}
+
+.icomoon-face-closed-meyes2:before {
+  content: "\e935";
+}
+
+.icomoon-sad-face5:before {
+  content: "\e936";
+}
+
+.icomoon-smiling-face3:before {
+  content: "\e937";
+}
+
+.icomoon-home:before {
+  content: "\e985";
+}
+
+[class^="icon-mof-"],
+[class*=" icon-mof-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MoF-web' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-mof-activity:before {
+  content: "\e9c3";
+}
+
+.icomoon-mof-at-sign:before {
+  content: "\e9ca";
+}
+
+.icomoon-mof-battery:before {
+  content: "\e980";
+}
+
+.icomoon-mof-battery-charging:before {
+  content: "\e981";
+}
+
+.icomoon-mof-camera:before {
+  content: "\e98a";
+}
+
+.icomoon-mof-cast:before {
+  content: "\e98b";
+}
+
+.icomoon-mof-droplet:before {
+  content: "\e986";
+}
+
+.icomoon-mof-filter:before {
+  content: "\e987";
+}
+
+.icomoon-mof-flag:before {
+  content: "\e988";
+}
+
+.icomoon-mof-home:before {
+  content: "\e97f";
+}
+
+.icomoon-mof-instagram:before {
+  content: "\e989";
+}
+
+.icomoon-mof-list:before {
+  content: "\e98e";
+}
+
+.icomoon-mof-loader:before {
+  content: "\e98f";
+}
+
+.icomoon-mof-map:before {
+  content: "\e990";
+}
+
+.icomoon-mof-map-pin:before {
+  content: "\e9df";
+}
+
+.icomoon-mof-mic:before {
+  content: "\e996";
+}
+
+.icomoon-mof-mic-off:before {
+  content: "\e9ab";
+}
+
+.icomoon-mof-settings:before {
+  content: "\e984";
+}
+
+.icomoon-mof-star:before {
+  content: "\e985";
+}
+
+.icomoon-mof-target:before {
+  content: "\e993";
+}
+
+.icomoon-mof-thumbs-down:before {
+  content: "\e991";
+}
+
+.icomoon-mof-thumbs-up:before {
+  content: "\e992";
+}
+
+.icomoon-mof-umbrella:before {
+  content: "\e9de";
+}
+
+.icomoon-mof-user:before {
+  content: "\e995";
+}
+
+.icomoon-mof-users:before {
+  content: "\e994";
+}
+
+.icomoon-mof-volume-2:before {
+  content: "\e98c";
+}
+
+.icomoon-mof-volume-x:before {
+  content: "\e98d";
+}
+
+.icomoon-mof-Analysis-of-questionnaires2:before {
+  content: "\e906";
+}
+
+.icomoon-mof-The-leadership:before {
+  content: "\e908";
+}
+
+.icomoon-mof-Enhancing:before {
+  content: "\e90d";
+}
+
+.icomoon-mof-Preparing:before {
+  content: "\e90f";
+}
+
+.icomoon-mof-sad:before {
+  content: "\e933";
+}
+
+.icomoon-mof-Live-Stream:before {
+  content: "\e9e0";
+}
+
+.icomoon-mof-Bridge:before {
+  content: "\e9e1";
+}
+
+.icomoon-mof-Commercially:before {
+  content: "\e9e2";
+}
+
+.icomoon-mof-Promote:before {
+  content: "\e9e3";
+}
+
+.icomoon-mof-Develop-innovative2:before {
+  content: "\e9e4";
+}
+
+.icomoon-mof-Share-knowledge:before {
+  content: "\e9e5";
+}
+
+.icomoon-mof-Centre-of-Excellence:before {
+  content: "\e9e6";
+}
+
+.icomoon-mof-Opinion-Leader:before {
+  content: "\e9e7";
+}
+
+.icomoon-mof-Influential:before {
+  content: "\e9e8";
+}
+
+.icomoon-mof-Proactive:before {
+  content: "\e9e9";
+}
+
+.icomoon-mof-E-Participation-contact:before {
+  content: "\e997";
+}
+
+.icomoon-mof-E-Participation-contactus:before {
+  content: "\e998";
+}
+
+.icomoon-mof-E-Participation-share:before {
+  content: "\e999";
+}
+
+.icomoon-mof-Video-Gallery-PUBLICATIONS:before {
+  content: "\e99a";
+}
+
+.icomoon-mof-VideoGallery-Play:before {
+  content: "\e99b";
+}
+
+.icomoon-mof-media:before {
+  content: "\e99c";
+}
+
+.icomoon-mof-Services-Private-Sector-Suppliers:before {
+  content: "\e99d";
+}
+
+.icomoon-mof-Services-Individuals-Economic-Integration:before {
+  content: "\e99e";
+}
+
+.icomoon-mof-Services-gov-Budget:before {
+  content: "\e99f";
+}
+
+.icomoon-mof-Services-gov-CustomerCare:before {
+  content: "\e9a0";
+}
+
+.icomoon-mof-Services-gov-E-KD:before {
+  content: "\e9a1";
+}
+
+.icomoon-mof-Services-gov-Federal:before {
+  content: "\e9a2";
+}
+
+.icomoon-mof-services-gov-Revenue:before {
+  content: "\e9a3";
+}
+
+.icomoon-mof-Services-gov-Tax-Domicile:before {
+  content: "\e9a4";
+}
+
+.icomoon-mof-Services-Card-Start:before {
+  content: "\e9a5";
+}
+
+.icomoon-mof-Understanding:before {
+  content: "\e9a6";
+}
+
+.icomoon-mof-Water:before {
+  content: "\e9a7";
+}
+
+.icomoon-mof-Work-as-per-the-rules:before {
+  content: "\e9a8";
+}
+
+.icomoon-mof-Technology:before {
+  content: "\e9a9";
+}
+
+.icomoon-mof-Transportation:before {
+  content: "\e9aa";
+}
+
+.icomoon-mof-Social:before {
+  content: "\e9ac";
+}
+
+.icomoon-mof-Space:before {
+  content: "\e9ad";
+}
+
+.icomoon-mof-Stimulate:before {
+  content: "\e9ae";
+}
+
+.icomoon-mof-stores:before {
+  content: "\e9af";
+}
+
+.icomoon-mof-Suppliers:before {
+  content: "\e9b0";
+}
+
+.icomoon-mof-Support:before {
+  content: "\e9b1";
+}
+
+.icomoon-mof-ranking:before {
+  content: "\e9b2";
+}
+
+.icomoon-mof-Renewable:before {
+  content: "\e9b3";
+}
+
+.icomoon-mof-Review:before {
+  content: "\e9b4";
+}
+
+.icomoon-mof-Preparation:before {
+  content: "\e9b5";
+}
+
+.icomoon-mof-Property:before {
+  content: "\e9b6";
+}
+
+.icomoon-mof-ProtectingCompetitive:before {
+  content: "\e9b7";
+}
+
+.icomoon-mof-Protocol:before {
+  content: "\e9b8";
+}
+
+.icomoon-mof-Provide-different:before {
+  content: "\e9b9";
+}
+
+.icomoon-mof-Official-media:before {
+  content: "\e9ba";
+}
+
+.icomoon-mof-Other-Federal:before {
+  content: "\e9bb";
+}
+
+.icomoon-mof-Partners:before {
+  content: "\e9bc";
+}
+
+.icomoon-mof-Paying:before {
+  content: "\e9bd";
+}
+
+.icomoon-mof-Planning:before {
+  content: "\e9be";
+}
+
+.icomoon-mof-Media:before {
+  content: "\e9bf";
+}
+
+.icomoon-mof-Ministries-and-federal:before {
+  content: "\e9c0";
+}
+
+.icomoon-mof-Individual:before {
+  content: "\e9c1";
+}
+
+.icomoon-mof-Infrastructure:before {
+  content: "\e9c2";
+}
+
+.icomoon-mof-Leading-Practice:before {
+  content: "\e9c4";
+}
+
+.icomoon-mof-Improve-performance:before {
+  content: "\e9c5";
+}
+
+.icomoon-mof-Improve:before {
+  content: "\e9c6";
+  color: #1941d8;
+}
+
+.icomoon-mof-Increase-productivity:before {
+  content: "\e9c7";
+}
