@@ -4,7 +4,7 @@
     "description": "MOF Portal",
     "main": "gulpfile.js",
     "dependencies": {
-        "@material/select": "^0.24.0",
+        "@material/select": "^0.44.1",
         "gulp": "^4.0.0",
         "gulp-autoprefixer": "^4.0.0",
         "gulp-clean-css": "^3.9.3",
